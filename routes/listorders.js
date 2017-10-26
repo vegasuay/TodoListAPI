@@ -8,7 +8,7 @@ var router = express.Router();
 router.get('/mylist', 
     function(req, res, next) {
         //var get_params = url.parse(req.url, true).query;
-  
+        console.log(process.env.MONGODB_USER);
         res.setHeader('content-type','application/json');
         dataservice.list(ListOrder, res, 'vegasuay');
     }
