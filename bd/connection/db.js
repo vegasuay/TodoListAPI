@@ -9,6 +9,5 @@ mongoose.connect(mongoDB, {
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', function(){
-    alert(process.env);
     console.log('MongoDB connection ok!');
   });
