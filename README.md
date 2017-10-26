@@ -1,4 +1,5 @@
 NodeJs/Express Web Api
+Api que gestiona CRUD en json sobre listas de usuarios autenticados
 
 <h1>Configuracion del entorno</h1>
 Para el desarrollo de la aplicación usamos VS Code
@@ -41,3 +42,4 @@ DELETE | /contacts/:primary-phone-number  | Deletes an existing contact.
 GET    | /groups                          | Retrieves all available groups that have contacts assigned.
 GET    | /groups:group-name               | Retrieves a unique list of all the groups assigned to contacts.
 DELETE | /groups/:name                    | Deletes a group from all the contacts it is assigned to
+
