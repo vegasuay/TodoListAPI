@@ -18,7 +18,14 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
-    "mongoose": "^4.12.2"
+    "mongoose": "^4.12.2",
+    "passport":"~0.4.0",
+    "passport-http": "~0.3.0",
+    "basic-auth": "2.0.0",
+    "oauth2orize": "^1.10.0",
+    "passport-http-bearer": "^1.0.x",
+    "passport-oauth2-client-password": "^0.1.x",
+    "nconf": "^0.8.5"
   },
   "engines": {
     "node":"7.10.0"

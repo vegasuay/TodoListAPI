@@ -1,4 +1,6 @@
 var mongoose = require('mongoose');
+
+// Define our listorder schema
 var listorderSchema = new mongoose.Schema({
     username: String,
     listname: String,
@@ -8,5 +10,5 @@ var listorderSchema = new mongoose.Schema({
     sharedusers: [String]
 });
 
-var ListOrder= mongoose.model('ListOrder', listorderSchema);
-module.exports = ListOrder;
+// Export the mongoose model
+module.exports = mongoose.model('ListOrder', listorderSchema);

@@ -1,14 +1,14 @@
 var express = require('express');
+var passport = require('passport');
 var url = require('url');
-var dataservice = require('./../modules/listorderdataservice');
+var dataservice = require('./../dataservices/listorder');
 var ListOrder = require('./../bd/models/listorder');
 var router = express.Router();
 
 /* GET mi lista*/
-router.get('/mylist', 
+router.get('/mylist', passport.authenticate('bearer', { session: false }),
     function(req, res, next) {
         //var get_params = url.parse(req.url, true).query;
-        console.log(process.env.MONGODB_USER);
         res.setHeader('content-type','application/json');
         dataservice.list(ListOrder, res, 'vegasuay');
     }
