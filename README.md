@@ -2,11 +2,11 @@ NodeJs/Express Web Api
 Api que gestiona CRUD en json sobre listas de usuarios autenticados con OAuth2
 
 <h1>Configuracion del entorno</h1>
-Para el desarrollo de la aplicación usamos VS Code
-    - instalar nodejs (apt-get installa nodejs)
-    - instalar npm (apt-get install npm)
-    - instalar Express (apt-get express)
-    - instalar express code generator (npm install -g express-generator)
+Para el desarrollo de la aplicación usamos VS Code<br />
+    - instalar nodejs (apt-get installa nodejs)<br />
+    - instalar npm (apt-get install npm)<br />
+    - instalar Express (apt-get express)<br />
+    - instalar express code generator (npm install -g express-generator)<br />
 
 <h1>Creación de la la plantilla</h1>
 Con express code generator es facíl crear una plantilla inicial lanzando el siguiente comando:
